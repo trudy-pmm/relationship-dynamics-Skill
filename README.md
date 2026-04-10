@@ -16,25 +16,18 @@ Inspired by the TV drama《危险关系》(2026), this skill examines relationsh
 4. **Information Landscape** — what each person sees, what they're blind to
 5. **The Arc** — trajectory, inflection points, and growth edges
 
-### /create-website
-
-Scaffold and build a personal website project with dark mode support. Guides you through choosing a tech stack, creating pages, and deploying.
-
 ## Installation
 
-Copy the skill folders into your Claude Code skills directory:
+Copy the skill folder into your Claude Code skills directory:
 
 ```bash
-# Personal (available in all projects)
 cp -r relationship-dynamics ~/.claude/skills/
-cp -r create-website ~/.claude/skills/
 ```
 
 Then use in Claude Code:
 
 ```
 /relationship-dynamics describe a relationship or paste a conversation
-/create-website my-site
 ```
 
 ## License
