@@ -1,40 +1,81 @@
-#《危险关系》电视剧中人物关系升维skill
+#《危险关系》电视剧中人物关系升维 Skill
+
 本来是想做一个将《危险关系》中每个人提纯的，但是突然想到，我们去认识每个人，其实还是在用二维的视角看这个关系，如果可以升维，其实看到的是全局的。每个人背后都有自己的关注点，如何去分析对方的利弊，而不是指责、控诉，带着分析的视角看关系，可以看的更清楚些。
+
 使用场景：
-1、发现自己和其他人的关系出现问题时，可以问问这个助手，是否合理，而不是否定自己或者关在小黑屋子里质疑自己；
-2、敢于解决问题、面对问题，即使你没有罗玲的学历，但是你有思考的方法；
-3、见识和学识和学历没有关系，是你没有高的学历，你也可以看到高山；
-4、不局限于自己圈层的判断，带着新的思考方式，重新定义周围的关系；
-作为女性，我将这个skill 作为我的第一个项目，想去帮助更多的姐妹，认识自己、社会，不是否定自己无法解决，而是有更好的方法解决。
+1. 发现自己和其他人的关系出现问题时，可以问问这个助手，是否合理，而不是否定自己或者关在小黑屋子里质疑自己；
+2. 敢于解决问题、面对问题，即使你没有罗玲的学历，但是你有思考的方法；
+3. 见识和学识和学历没有关系，是你没有高的学历，你也可以看到高山；
+4. 不局限于自己圈层的判断，带着新的思考方式，重新定义周围的关系；
 
-A collection of custom skills for [Claude Code](https://claude.com/claude-code).
+作为女性，我将这个 skill 作为我的第一个项目，想去帮助更多的姐妹，认识自己、社会，不是否定自己无法解决，而是有更好的方法解决。
 
-## Skills
+---
 
-### /relationship-dynamics
+一个为 [Claude Code](https://claude.com/claude-code) 打造的自定义 Skill，帮助你从更高维度理解人与人之间的关系。
 
-Analyze power structures, dependency patterns, and information asymmetry in any relationship (intimate, workplace, social).
+## 灵感来源
 
-Inspired by the TV drama《危险关系》(2026), this skill examines relationships from five dimensions:
+灵感来自孙俪、吴慷仁主演的电视剧《危险关系》(2026)。这部剧深刻呈现了亲密关系中的权力博弈与情感操控，让我们看到：**关系中真正危险的，不是冲突本身，而是那些看不见的结构。**
 
-1. **Power Geography** — who holds what power, and how it flows
-2. **Exchange Structure** — what each person gives and gets, where the asymmetry lies
-3. **Attachment Currents** — unspoken needs and fears, and the dance patterns they create
-4. **Information Landscape** — what each person sees, what they're blind to
-5. **The Arc** — trajectory, inflection points, and growth edges
+这个 Skill 不是用来"识别 PUA"的工具，而是一面镜子——帮你看清关系中正在发生什么，以及你自己在其中扮演的角色。
 
-## Installation
+## 五个分析维度
 
-Copy the skill folder into your Claude Code skills directory:
+| 维度 | 核心问题 |
+|------|---------|
+| **权力地理** | 谁拥有什么权力？权力如何流动和转移？ |
+| **交换结构** | 双方在给予和获取什么？哪里有隐性的不对称？ |
+| **依恋暗流** | 未说出口的需要和恐惧，形成了怎样的互动舞步？ |
+| **信息地貌** | 谁看见了什么？谁对自己视而不见？ |
+| **弧线走向** | 如果不改变，会走向哪里？转折点在哪？ |
+
+## 角色参照
+
+分析时会在合适的场景引用《危险关系》中的角色模式：
+
+- **颜聆** — 高能力者的情感盲区成为失去自主权的入口
+- **罗梁** — 将共情变为控制的工具，把"给予"武器化为债务
+- **长宁** — 从年轻女性的角度，将爱情作为人生生存模式
+
+## 适用场景
+
+- 理解一段让你困惑的亲密关系
+- 分析职场中的权力互动
+- 拆解影视/文学作品中的角色关系
+- 觉察自己在关系中反复出现的模式
+
+## 设计理念
+
+- **不贴标签** — 不说"自恋者""讨好型人格"，只描述行为模式本身
+- **不评判** — 像一个智慧的朋友，温暖、有洞察力、零评判
+- **照镜子** — 每次分析结尾会抛出一个"镜子问题"，邀请你看到自己可能忽略的东西
+- **关注女性视角** — 如果识别到女性用户，会从社会教育和习惯入手，给予更多分析和鼓励
+
+## 安装
+
+将 `relationship-dynamics` 文件夹复制到 Claude Code 的 skills 目录：
 
 ```bash
 cp -r relationship-dynamics ~/.claude/skills/
 ```
 
-Then use in Claude Code:
+## 使用
+
+在 Claude Code 中输入：
 
 ```
-/relationship-dynamics describe a relationship or paste a conversation
+/relationship-dynamics 描述一段关系或粘贴一段对话
+```
+
+例如：
+
+```
+/relationship-dynamics 我的领导总是在公开场合表扬我，但私下否定我的方案
+```
+
+```
+/relationship-dynamics 分析《危险关系》中颜聆和罗梁的关系动力
 ```
 
 ## License
